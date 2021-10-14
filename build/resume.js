@@ -43,25 +43,25 @@ function render(innerRadius) {
     ];
 
     // html技能
-    drawArc(svghtml, innerRadius, back, html, "#E8E8E8", "#3F4344", 'Html');
+    drawArc(svghtml, innerRadius, back, html, "#E8E8E8", "#3F4344", 'Python');
 
     // css技能
-    drawArc(svgcss, innerRadius, back, css, "#E8E8E8", "#3F4344", 'CSS');
+    drawArc(svgcss, innerRadius, back, css, "#E8E8E8", "#3F4344", 'ArcGIS');
 
     //javascript技能
-    drawArc(svgjavascript, innerRadius, back, javascript, "#E8E8E8", "#3F4344", 'JavaScript');
+    drawArc(svgjavascript, innerRadius, back, javascript, "#E8E8E8", "#3F4344", 'SQL');
 
     //jQuery技能
-    drawArc(svgjQuery, innerRadius, back, jQuery, "#E8E8E8", "#3F4344", 'jQuery');
+    drawArc(svgjQuery, innerRadius, back, jQuery, "#E8E8E8", "#3F4344", 'Matlab');
 
     //bootstrap技能
-    drawArc(svgbootstrap, innerRadius, back, bootstrap, "#E8E8E8", "#3F4344", 'Bootstrap');
+    drawArc(svgbootstrap, innerRadius, back, bootstrap, "#E8E8E8", "#3F4344", 'R');
 
     //bootstrap技能
-    drawArc(svgd3js, innerRadius, back, d3js, "#E8E8E8", "#3F4344", 'D3.js');
+    drawArc(svgd3js, innerRadius, back, d3js, "#E8E8E8", "#3F4344", 'PHP');
 
     //git技能
-    drawArc(svggit, innerRadius, back, git, "#E8E8E8", "#3F4344", 'git');
+    drawArc(svggit, innerRadius, back, git, "#E8E8E8", "#3F4344", 'Java');
 }
 render(34);
 
